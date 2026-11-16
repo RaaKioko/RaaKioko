@@ -21,6 +21,6 @@
 </p>
 
 <p align="center">
-  <a href="https://www.youtube.com/@realmoodydev"><img src="assets/btn-youtube.svg" height="56" alt="Watch on YouTube, @realmoodydev"></a>
-  <a href="https://www.linkedin.com/in/ryan-kioko-463b62380"><img src="assets/btn-linkedin.svg" height="56" alt="Connect on LinkedIn"></a>
+  <a href="https://www.youtube.com/@realmoodydev"><img src="assets/btn-youtube.svg" height="50" alt="Watch on YouTube, @realmoodydev"></a>
+  <a href="https://www.linkedin.com/in/ryan-kioko-463b62380"><img src="assets/btn-linkedin.svg" height="50" alt="Connect on LinkedIn"></a>
 </p>
