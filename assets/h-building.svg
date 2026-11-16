@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 54" width="840" height="54" role="img" aria-label="Now building">
-<defs><linearGradient id="g" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="360" y2="0" spreadMethod="repeat"><stop offset="0.000" stop-color="#ff2bd6"/><stop offset="0.333" stop-color="#8b5cff"/><stop offset="0.667" stop-color="#22e6ff"/><stop offset="1" stop-color="#ff2bd6"/><animateTransform attributeName="gradientTransform" type="translate" from="0 0" to="360 0" dur="4s" repeatCount="indefinite"/></linearGradient></defs>
-<text x="420" y="32" text-anchor="middle" style="font:900 24px 'Segoe UI',Inter,Helvetica,Arial,sans-serif;letter-spacing:5px" fill="url(#g)">NOW BUILDING</text>
-<rect x="270" y="44" width="300" height="4" rx="2" fill="url(#g)"/>
-<circle cx="270" cy="46" r="5" fill="#fff"><animate attributeName="cx" values="270;570;270" dur="3s" repeatCount="indefinite"/></circle>
-</svg>

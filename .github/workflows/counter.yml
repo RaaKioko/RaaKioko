@@ -11,14 +11,10 @@ permissions:
 jobs:
   update:
     runs-on: ubuntu-latest
-    env:
-      START_DATE: "2026-06-17"   # first commit of Microsoft-Access-Pong
     steps:
       - uses: actions/checkout@v4
       - name: Rewrite the counter
-        run: |
-          days=$(( ( $(TZ=Africa/Nairobi date +%s) - $(TZ=Africa/Nairobi date -d "$START_DATE" +%s) ) / 86400 ))
-          sed -i -E "s|(id=\"days(glow)?\">)[0-9]+|\1${days}|g" assets/counter.svg
+        run: python3 scripts/tick.py
       - name: Commit if it changed
         run: |
           if git diff --quiet; then exit 0; fi
