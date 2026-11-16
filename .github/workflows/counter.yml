@@ -18,7 +18,7 @@ jobs:
       - name: Rewrite the counter
         run: |
           days=$(( ( $(TZ=Africa/Nairobi date +%s) - $(TZ=Africa/Nairobi date -d "$START_DATE" +%s) ) / 86400 ))
-          sed -i -E "s|(<!--DAYS-->)[0-9]+(<!--/DAYS-->)|\1${days}\2|" README.md
+          sed -i -E "s|(id=\"days(glow)?\">)[0-9]+|\1${days}|g" assets/counter.svg
       - name: Commit if it changed
         run: |
           if git diff --quiet; then exit 0; fi

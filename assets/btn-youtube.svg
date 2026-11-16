@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 52" width="300" height="52" role="img" aria-label="YouTube @realmoodydev">
+<defs><linearGradient id="f" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="300" y2="0" spreadMethod="repeat"><stop offset="0.000" stop-color="#ff2b5e"/><stop offset="0.333" stop-color="#ff2bd6"/><stop offset="0.667" stop-color="#ff8a2b"/><stop offset="1" stop-color="#ff2b5e"/><animateTransform attributeName="gradientTransform" type="translate" from="0 0" to="300 0" dur="3s" repeatCount="indefinite"/></linearGradient><clipPath id="c"><rect x="2" y="2" width="296" height="48" rx="24"/></clipPath></defs>
+<rect x="2" y="2" width="296" height="48" rx="24" fill="url(#f)"/>
+<g clip-path="url(#c)"><rect y="0" width="40" height="52" fill="#fff" opacity=".35" transform="skewX(-20)"><animate attributeName="x" values="-60;360" dur="2.6s" repeatCount="indefinite"/></rect></g>
+<path d="M26 17v18l15-9z" fill="#fff"/>
+<text x="56" y="33" style="font:900 16px 'Segoe UI',Inter,Helvetica,Arial,sans-serif;letter-spacing:.5px" fill="#fff">YouTube @realmoodydev</text>
+</svg>
